@@ -1,5 +1,7 @@
 package med.voll.api.domain.medico;
 
+import med.voll.api.domain.medico.entity.Medico;
+
 public record DadosListagemMedico(
         Long id,
         String nome,

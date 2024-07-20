@@ -1,5 +1,7 @@
 package med.voll.api.domain.paciente;
 
+import med.voll.api.domain.paciente.entity.Paciente;
+
 public record DadosListagemPaciente(
         String nome,
         String email,
